@@ -82,7 +82,7 @@ footer{
 
 /* MOBILE FIRST (or second rsrsr)*/
 
-@media (min-width: 375px) and (max-width: 1024px)
+@media (min-width: 375px) and (max-width: 600px)
 {
     header{
         text-align: center;
