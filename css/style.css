@@ -82,7 +82,8 @@ footer{
 
 /* MOBILE FIRST (or second rsrsr)*/
 
-@media (min-width: 375px){
+@media (min-width: 375px) and (max-width: 1024px)
+{
     header{
         text-align: center;
         background-color: rgba(167, 182, 31, 0.842);
@@ -143,18 +144,18 @@ footer{
     }
     #secundlink{
         position: absolute;
-        bottom: 15%;
         right: 20%;
         width: 100px;
         text-align: center;
         margin-right: 50px;
+        margin-top: 30px;
         background-color: white;
         padding: 10px;
         border-radius: 5px;
     }
     footer{
         text-align: center;
-        margin-top: 10px;
+        margin-top: 100px;
         color: white;
         padding: 20px;
         background-color: rgba(167, 182, 31, 0.842); ;
