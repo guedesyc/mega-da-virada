@@ -9,8 +9,7 @@ body{
     text-align: center;
     background-image: url(../image/tio-patinhas.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: 1400px 800px;
     
 }
 
@@ -76,7 +75,7 @@ a:hover{
 }
 
 footer{
-    margin-top: 20px;
+    margin-top: 150px;
     color: white;
     padding: 20px;
     background-color: rgba(167, 182, 31, 0.842); ;
@@ -86,6 +85,14 @@ footer{
 
 @media (min-width: 375px) and (max-width: 600px)
 {
+
+    body{
+        text-align: center;
+        background-image: url(../image/tio-patinhas.jpeg);
+        background-repeat: no-repeat;
+        background-size: 600px 1000px;
+        
+    }
     header{
         text-align: center;
         background-color: rgba(167, 182, 31, 0.842);
@@ -157,7 +164,7 @@ footer{
     }
     footer{
         text-align: center;
-        margin-top: 100px;
+        margin-top: 300px;
         color: white;
         padding: 20px;
         background-color: rgba(167, 182, 31, 0.842); ;
