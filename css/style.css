@@ -8,6 +8,8 @@
 body{
     text-align: center;
     background-image: url(../image/tio-patinhas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     
 }
